@@ -1,4 +1,4 @@
-                ## 107AB0713 徐昕喬 期末報告(CH8)
+                # 107AB0713 徐昕喬 期末報告(CH8)
 		## 過程
 		透過 RandomForestClassifier 及 FeatureHasher 來讓機器學習訓練取惡意程式的特點和資料，首先一開始要取得檔案的特點值，取完後再將這些資料儲存起來做雜湊形成特點值的訊息重點和摘要
 		在轉換為陣列用來後續作為比較，使用RandowForestClassifier進行訓練，最後用預測出來的scores和test_y去辨別是惡意或善意的檔案，最後畫出ROC curves的圖。
